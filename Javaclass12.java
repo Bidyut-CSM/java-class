@@ -1,6 +1,22 @@
 public class Javaclass12 {
     public static void main(String[] args) {
         System.out.println("Java Class 12. Arithmetic Operator");
-        System.out.println("Java Class 12. Arithmetic Operator");System.out.println("Java Class 12. Arithmetic Operator");System.out.println("Java Class 12. Arithmetic Operator");System.out.println("Java Class 12. Arithmetic Operator");System.out.println("Java Class 12. Arithmetic Operator");
+        int a = 20;
+        int b = 10;
+
+        // Addition
+        System.out.println("Addition: " + (a + b));
+
+        // Subtraction
+        System.out.println("Subtraction: " + (a - b));
+
+        // Multiplication
+        System.out.println("Multiplication: " + (a * b));
+
+        // Division
+        System.out.println("Division: " + (a / b));
+
+        // Modulus
+        System.out.println("Modulus: " + (a % b));
     }
 }
