@@ -10,8 +10,8 @@ public class Javaclass25 {
 }
 
 class User{
-    protected int age =20;
-    protected String name = "Bidyut";
+    protected int age =0;
+    protected String name = "";
     public User(int age, String name) {
         this.age = age;
         this.name = name;
