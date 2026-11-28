@@ -1,13 +1,3 @@
-public class Javaclass40 {
-    static void main(String[] args) {
-        System.out.println("Java Class 40. Inheritance in Java");
-        Dog obj = new Dog();
-        System.out.println(obj.name);
-        obj.eat();
-        obj.bark();
-    }
-}
-
 class Animal {
     String name = "Animal";
     void eat() {
@@ -20,7 +10,12 @@ class Dog extends Animal {
         System.out.println("Dog is barking");
     }
 }
-
-
-
-
+public class Javaclass40 {
+    static void main(String[] args) {
+        System.out.println("Java Class 40. Inheritance in Java");
+        Dog obj = new Dog();
+        System.out.println(obj.name);
+        obj.eat();
+        obj.bark();
+    }
+}
